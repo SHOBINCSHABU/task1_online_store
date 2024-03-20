@@ -18,7 +18,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: ColorConstants.primaryGreen,
-        leading: Icon(Icons.sort),
+        leading: Icon(Icons.sort, color: ColorConstants.primaryWhite,),
         title: TextButton(
             onPressed: () {},
             child: TextField(
